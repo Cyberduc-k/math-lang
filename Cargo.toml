@@ -1,0 +1,13 @@
+[package]
+name = "math-lang"
+version = "0.1.0"
+authors = ["Cyberduc-k <tttymo@gmail.com>"]
+edition = "2018"
+
+[dependencies]
+diagnostics = { path = "../.crates/diagnostics" }
+intern = { path = "../.crates/intern" }
+parser = { path = "parser" }
+clap = "2.33.1"
+faerie = "0.15.0"
+target-lexicon = "0.10.0"
